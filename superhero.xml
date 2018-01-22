@@ -1,0 +1,119 @@
+<?xml version="1.0"?>
+<!DOCTYPE nerdstuff SYSTEM "superhero.dtd">
+
+<nerdstuff>
+<superhero>
+<name hero_id='id_666'>Batman</name>
+<label>DC Comics</label>
+ <creator>
+  <artist>Bob Kane</artist>
+  <writer>Bill Finger</writer>
+   <first-appearance>
+     <comic>
+         <year>1939</year>
+         <series>Detective Comics</series>
+          <number>
+              <vol></vol>
+              <issue>27</issue>
+          </number>
+     </comic>
+   </first-appearance>
+ </creator>
+</superhero>
+<superhero>
+  <name hero_id='id_52'>Aquaman</name>
+  <label>DC Comics</label>
+  <creator>
+    <artist>Paul Norris</artist>
+    <writer>Mort Weisinger</writer>
+    <first-appearance>
+      <comic>
+        <year>1941</year>
+        <series>More Fun Comics</series>
+        <number>
+          <vol>1</vol>
+          <issue>73</issue>
+        </number>
+      </comic>
+    </first-appearance>
+  </creator>
+</superhero>
+  <superhero>
+    <name hero_id='id_96'>Spiderman</name>
+    <label>Marvel Comics</label>
+    <creator>
+      <artist>Steve Ditko</artist>
+      <writer>Stan Lee</writer>
+      <first-appearance>
+        <comic>
+          <year>1962</year>
+          <series>Amazing Fantasy</series>
+          <number>
+            <vol>1</vol>
+            <issue>15</issue>
+          </number>
+        </comic>
+      </first-appearance>
+    </creator>
+  </superhero>
+  
+  <superhero>
+    <name hero_id='id_69'>Deadpool</name>
+    <label>Marvel Comics</label>
+    <creator>
+      <artist>Ed McGuinness</artist>
+      <writer>Joe Kelly</writer>
+      <first-appearance>
+        <comic>
+          <year>1991</year>
+          <series>New Mutants</series>
+          <number>
+            <vol>1</vol>
+            <issue>98</issue>
+          </number>
+        </comic>
+      </first-appearance>
+    </creator>
+  </superhero>
+  
+  <superhero>
+    <name hero_id='id_68'>Deathstroke</name>
+    <label>DC Comics</label>
+    <creator>
+      <artist>George Pérez</artist>
+      <writer>Marv Wolfman</writer>
+      <first-appearance>
+        <comic>
+          <year>1941</year>
+          <series>New Teen Titans</series>
+          <number>
+            <vol>1</vol>
+            <issue>2</issue>
+          </number>
+        </comic>
+      </first-appearance>
+    </creator>
+  </superhero>
+  
+  <superhero>
+    <name hero_id='id_111'>Wolverine</name>
+    <label>Marvel Comics</label>
+    <creator>
+      <artist>Herb Trimpe</artist>
+      <artist>John Romita senior</artist>     
+      <writer>Roy Thomas</writer>
+      <writer>Len Wein</writer> 
+      <first-appearance>
+        <comic>
+          <year>1974</year>
+          <series>Incredible Hulk</series>
+          <number>
+            <vol>1</vol>
+            <issue>180</issue>
+          </number>
+        </comic>
+      </first-appearance>
+    </creator>
+  </superhero>
+    
+</nerdstuff>

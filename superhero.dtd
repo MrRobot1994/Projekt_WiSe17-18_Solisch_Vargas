@@ -1,0 +1,16 @@
+<!ELEMENT nerdstuff (superhero+)>
+<!ELEMENT superhero (name,label,creator)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT label (#PCDATA)>
+<!ELEMENT creator (artist+,writer+,first-appearance)>
+<!ELEMENT artist (#PCDATA)>
+<!ELEMENT writer (#PCDATA)>
+<!ELEMENT first-appearance (comic)>
+<!ELEMENT comic (year,series,number)>
+<!ELEMENT year (#PCDATA)>
+<!ELEMENT series (#PCDATA)>
+<!ELEMENT number (vol?,issue?)>
+<!ELEMENT vol (#PCDATA)>
+<!ELEMENT issue (#PCDATA)>
+
+<!ATTLIST name hero_id ID #REQUIRED>
